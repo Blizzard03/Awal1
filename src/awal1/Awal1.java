@@ -18,7 +18,7 @@ public class Awal1 {
     public static void main(String[] args) {
         // TODO code application logic here
         // Mahasasiswa 1 Edition 1
-        Mahasiswa mhs = new Mahasiswa();
+        final Mahasiswa mhs = new Mahasiswa();
         mhs.setNPM("202015130075");
         mhs.setNama("Ariel");
         mhs.setAlamat("Jl.Dipati Ukur 1000");
@@ -26,7 +26,7 @@ public class Awal1 {
         mhs.setTahunlahir(1994);
 
         // Mahasiswa 1 Edition 2
-        Mahasiswa mhs1 = new Mahasiswa();
+        final Mahasiswa mhs1 = new Mahasiswa();
         mhs1.NPM = "2015130075";
         mhs1.Nama = "Ariel";
         mhs1.Alamat = "Jl. Dipati Ukur 1000";
@@ -34,16 +34,16 @@ public class Awal1 {
         mhs1.tahunlahir = 1994;
 
         // Mahasiswa 2
-        Mahasiswa mhs2 = new Mahasiswa("2015130077", "Budiman", "Jl.Dago 50", "-", 1997);
+        final Mahasiswa mhs2 = new Mahasiswa("2015130077", "Budiman", "Jl.Dago 50", "-", 1997);
 
         // Mahasiswa 3
-        Mahasiswa mhs3 = new Mahasiswa("2015130079");
+        final Mahasiswa mhs3 = new Mahasiswa("2015130079");
 
         // Mahasiswa 4
-        Mahasiswa mhs4 = new Mahasiswa("2015130079", 1993);
+        final Mahasiswa mhs4 = new Mahasiswa("2015130079", 1993);
 
         // Mahasiswa 5
-        Mahasiswa mhs5 = new Mahasiswa(1994, "2015130081");
+        final Mahasiswa mhs5 = new Mahasiswa(1994, "2015130081");
 
         System.out.println("**************************************");
         System.out.println("Mahasiswa 1 - Edition 1");
