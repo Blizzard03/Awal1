@@ -13,6 +13,41 @@ public class Mahasiswa {
     private String NPM, Nama, Alamat, Telepon;
     private int tahunlahir;
 
+    // Blank Constuctor
+    public Mahasiswa() {
+        this.NPM = "0";
+        this.Nama = "Tidak Tahu";
+        this.Alamat = "Tidak Tahu";
+        this.Telepon = "-";
+        this.tahunlahir = 1980;
+    }
+
+    // Full Constructor
+    public Mahasiswa(String npm, String Name, String Address, String Phone_Number, int Year_Birth) {
+        NPM = npm;
+        Nama = Name;
+        Alamat = Address;
+        Telepon = Phone_Number;
+        tahunlahir = Year_Birth;
+    }
+
+    // Constructor NPM Saja
+    public Mahasiswa(String Nomor) {
+        NPM = Nomor;
+    }
+
+    // Constructor NPM dan Tahun Lahir
+    public Mahasiswa(String Nomor, int Thn) {
+        NPM = Nomor;
+        tahunlahir = Thn;
+    }
+
+    // Consturctor Tahun Lahir dan NPM
+    public Mahasiswa(int Thn, String Nomor) {
+        tahunlahir = Thn;
+        NPM = Nomor;
+    }
+
     public String getNPM() {
         return NPM;
     }
