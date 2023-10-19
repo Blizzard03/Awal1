@@ -34,7 +34,16 @@ public class Awal1 {
         mhs1.tahunlahir = 1994;
 
         // Mahasiswa 2
-        Mahasiswa mhs2 = new Mahasiswa(null, null, null, null, 0);
+        Mahasiswa mhs2 = new Mahasiswa("2015130077", "Budiman", "Jl.Dago 50", "-", 1997);
+
+        // Mahasiswa 3
+        Mahasiswa mhs3 = new Mahasiswa("2015130079");
+
+        // Mahasiswa 4
+        Mahasiswa mhs4 = new Mahasiswa("2015130079", 1993);
+
+        // Mahasiswa 5
+        Mahasiswa mhs5 = new Mahasiswa(1994, "2015130081");
 
         System.out.println("**************************************");
         System.out.println("Mahasiswa 1 - Edition 1");
@@ -54,6 +63,36 @@ public class Awal1 {
         System.out.printf("Alamat : %s\n", mhs1.getAlamat());
         System.out.printf("Telepon : %s\n", mhs1.getTelepon());
         System.out.printf("Umur : %d\n", mhs1.getTahunlahir());
+        System.out.println("**************************************");
+
+        System.out.println("**************************************");
+        System.out.println("Mahasiswa 2");
+        System.out.println("**************************************");
+        System.out.printf("NPM : %s\n", mhs2.getNPM());
+        System.out.printf("Nama : %s\n", mhs2.getNama());
+        System.out.printf("Alamat : %s\n", mhs2.getAlamat());
+        System.out.printf("Telepon : %s\n", mhs2.getTelepon());
+        System.out.printf("Umur : %d\n", mhs2.getTahunlahir());
+        System.out.println("**************************************");
+
+        System.out.println("**************************************");
+        System.out.println("Mahasiswa 3");
+        System.out.println("**************************************");
+        System.out.printf("NPM : %s\n", mhs3.getNPM());
+        System.out.println("**************************************");
+
+        System.out.println("**************************************");
+        System.out.println("Mahasiswa 4");
+        System.out.println("**************************************");
+        System.out.printf("NPM : %s\n", mhs4.getNPM());
+        System.out.printf("Umur : %d\n", mhs4.getTahunlahir());
+        System.out.println("**************************************");
+
+        System.out.println("**************************************");
+        System.out.println("Mahasiswa 5");
+        System.out.println("**************************************");
+        System.out.printf("Umur : %d\n", mhs5.getTahunlahir());
+        System.out.printf("NPM : %s\n", mhs5.getNPM());
         System.out.println("**************************************");
 
         System.out.println("This Program Made by WPA TEAM");

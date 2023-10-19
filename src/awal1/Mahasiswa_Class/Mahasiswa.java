@@ -10,8 +10,12 @@ package awal1.Mahasiswa_Class;
  */
 public class Mahasiswa {
 
-    private String NPM, Nama, Alamat, Telepon;
-    private int tahunlahir;
+    public String NPM;
+    public String Nama;
+
+    public String Alamat;
+    public String Telepon;
+    public int tahunlahir;
 
     // Blank Constuctor
     public Mahasiswa() {
@@ -24,28 +28,28 @@ public class Mahasiswa {
 
     // Full Constructor
     public Mahasiswa(String npm, String Name, String Address, String Phone_Number, int Year_Birth) {
-        NPM = npm;
-        Nama = Name;
-        Alamat = Address;
-        Telepon = Phone_Number;
-        tahunlahir = Year_Birth;
+        this.NPM = npm;
+        this.Nama = Name;
+        this.Alamat = Address;
+        this.Telepon = Phone_Number;
+        this.tahunlahir = Year_Birth;
     }
 
     // Constructor NPM Saja
     public Mahasiswa(String Nomor) {
-        NPM = Nomor;
+        this.NPM = Nomor;
     }
 
     // Constructor NPM dan Tahun Lahir
     public Mahasiswa(String Nomor, int Thn) {
-        NPM = Nomor;
-        tahunlahir = Thn;
+        this.NPM = Nomor;
+        this.tahunlahir = Thn;
     }
 
     // Consturctor Tahun Lahir dan NPM
     public Mahasiswa(int Thn, String Nomor) {
-        tahunlahir = Thn;
-        NPM = Nomor;
+        this.tahunlahir = Thn;
+        this.NPM = Nomor;
     }
 
     public String getNPM() {
