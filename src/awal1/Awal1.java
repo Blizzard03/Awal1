@@ -55,7 +55,7 @@ public class Awal1 {
         System.out.printf("Nama : %s\n", mhs.getNama());
         System.out.printf("Alamat : %s\n", mhs.getAlamat());
         System.out.printf("Telepon : %s\n", mhs.getTelepon());
-        System.out.printf("Umur : %d\n", mhs.getTahunlahir());
+        System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs.getTahunlahir()));
         System.out.println("**************************************");
 
         System.out.println("**************************************");
@@ -65,7 +65,7 @@ public class Awal1 {
         System.out.printf("Nama : %s\n", mhs1.getNama());
         System.out.printf("Alamat : %s\n", mhs1.getAlamat());
         System.out.printf("Telepon : %s\n", mhs1.getTelepon());
-        System.out.printf("Umur : %d\n", mhs1.getTahunlahir());
+        System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs.getTahunlahir()));
         System.out.println("**************************************");
 
         System.out.println("**************************************");
@@ -75,7 +75,7 @@ public class Awal1 {
         System.out.printf("Nama : %s\n", mhs2.getNama());
         System.out.printf("Alamat : %s\n", mhs2.getAlamat());
         System.out.printf("Telepon : %s\n", mhs2.getTelepon());
-        System.out.printf("Umur : %d\n", mhs2.getTahunlahir());
+        System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs2.getTahunlahir()));
         System.out.println("**************************************");
 
         System.out.println("**************************************");
@@ -88,13 +88,13 @@ public class Awal1 {
         System.out.println("Mahasiswa 4");
         System.out.println("**************************************");
         System.out.printf("NPM : %s\n", mhs4.getNPM());
-        System.out.printf("Umur : %d\n", mhs4.getTahunlahir());
+        System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs4.getTahunlahir()));
         System.out.println("**************************************");
 
         System.out.println("**************************************");
         System.out.println("Mahasiswa 5");
         System.out.println("**************************************");
-        System.out.printf("Umur : %d\n", mhs5.getTahunlahir());
+        System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs5.getTahunlahir()));
         System.out.printf("NPM : %s\n", mhs5.getNPM());
         System.out.println("**************************************");
 
@@ -102,5 +102,7 @@ public class Awal1 {
         System.out.println("**************************************");
 
     }
+
+    
 
 }

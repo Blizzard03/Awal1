@@ -4,6 +4,8 @@
  */
 package awal1.Mahasiswa_Class;
 
+import awal1.Awal1;
+
 /**
  *
  * @author mariq
@@ -12,10 +14,15 @@ public class Mahasiswa {
 
     public String NPM;
     public String Nama;
-
     public String Alamat;
     public String Telepon;
     public int tahunlahir;
+    private static int jml = 0;
+
+    
+    public static int hitungUmur(int thn) {
+        return (2016 - thn);
+    }
 
     // Blank Constuctor
     public Mahasiswa() {
@@ -90,6 +97,14 @@ public class Mahasiswa {
 
     public void setTahunlahir(int tahunlahir) {
         this.tahunlahir = tahunlahir;
+    }
+
+    public void tampilkan() {
+        System.out.println(String.valueOf(hitungUmur(tahunlahir)));
+    }
+
+    public static int getJml() {
+        return jml;
     }
 
 }
