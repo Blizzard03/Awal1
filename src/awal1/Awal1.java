@@ -46,6 +46,9 @@ public class Awal1 {
         final Mahasiswa mhs5 = new Mahasiswa(1994, "2015130081");
 
         System.out.println("**************************************");
+        System.out.println("AWAL 1 PROGRAM");
+        System.out.println("**************************************");
+        System.out.println("**************************************");
         System.out.println("Mahasiswa 1 - Edition 1");
         System.out.println("**************************************");
         System.out.printf("NPM : %s\n", mhs.getNPM());
