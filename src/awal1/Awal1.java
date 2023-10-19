@@ -5,6 +5,8 @@
 package awal1;
 
 import awal1.Mahasiswa_Class.Mahasiswa;
+import awal1.Mahasiswa_Class.MahasiswaS1;
+import awal1.Mahasiswa_Class.MahasiswaS3;
 
 /**
  *
@@ -45,6 +47,11 @@ public class Awal1 {
         // Mahasiswa 5
         final Mahasiswa mhs5 = new Mahasiswa(1994, "2015130081");
 
+        // Mahasiswa 6
+        MahasiswaS1 mhs6 = new MahasiswaS1("2015130087", "Antonius", "Jl. Merdeka 37", "-", 1997, 5);
+
+        // Mahasiswa 7
+        MahasiswaS3 mhs7 = new MahasiswaS3("2015330087", "Budiman", "Jl. Cicendo 51", "-", 1987, 2, 3);
         System.out.println("**************************************");
         System.out.println("AWAL 1 PROGRAM");
         System.out.println("**************************************");
@@ -97,12 +104,16 @@ public class Awal1 {
         System.out.printf("Umur : %d\n", Mahasiswa.hitungUmur(mhs5.getTahunlahir()));
         System.out.printf("NPM : %s\n", mhs5.getNPM());
         System.out.println("**************************************");
+        System.out.printf("NPM  Nama   Alamat    Telepon   Tahunlahir  Sertifikat\n");
+        System.out.println("**************************************");
+        mhs6.tampilkan();
+        System.out.printf("NPM  Nama   Alamat    Telepon   Tahunlahir  Konferensi  Jurnal\n");
+        mhs7.tampilkan();
+        System.out.printf("Jumlah mahasiswa : %d orang\n", Mahasiswa.getJml());
 
         System.out.println("This Program Made by WPA TEAM");
         System.out.println("**************************************");
 
     }
-
-    
 
 }
