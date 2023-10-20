@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package awal1;
+package awal1.Main_Class;
 
-import awal1.Mahasiswa_Class.Mahasiswa;
-import awal1.Mahasiswa_Class.MahasiswaS1;
-import awal1.Mahasiswa_Class.MahasiswaS3;
+import awal1.Mahasiswa_Class.Master.Mahasiswa;
+import awal1.Mahasiswa_Class.Sub.MahasiswaS1;
+import awal1.Mahasiswa_Class.Sub.MahasiswaS3;
 
 /**
  *

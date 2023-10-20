@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package awal1.Mahasiswa_Class;
+package awal1.Mahasiswa_Class.Sub;
+
+import awal1.Mahasiswa_Class.Master.Mahasiswa;
 
 /**
  *
