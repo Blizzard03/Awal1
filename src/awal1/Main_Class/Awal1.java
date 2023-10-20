@@ -127,7 +127,7 @@ public class Awal1 {
         System.out.println("**************************************");
         System.out.printf("NPM  Nama   Alamat    Telepon   Tahunlahir  Konferensi  Jurnal\n");
         mhs7.tampilkan();
-        Mahasiswa.setJml(7);
+        Mahasiswa.setJml(10);
         System.out.printf("Jumlah mahasiswa : %d orang\n", Mahasiswa.getJml());
         double persentmahasiswas1 = ((10 / 9) * 0.001);
         double persentMahasiswas3 = ((10/1)*0.001);
