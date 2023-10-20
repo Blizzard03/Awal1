@@ -46,7 +46,7 @@ public class MahasiswaS3 extends Mahasiswa {
     public void tampilkan() {
         System.out.printf(
                 "Data kelas S3: \n");
-        System.out.printf("%s % s % s % s % d % d % d\n",
+        System.out.printf("%s %s %s %s %d %d %d \n",
                  getNPM(),
                  getNama(),
                  getAlamat(),

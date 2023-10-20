@@ -5,6 +5,7 @@
 package awal1.Mahasiswa_Class.Sub;
 
 import awal1.Mahasiswa_Class.Master.Mahasiswa;
+import java.io.PrintStream;
 
 /**
  *
@@ -36,11 +37,13 @@ public class MahasiswaS1 extends Mahasiswa {
     @Override
     public void tampilkan() {
         System.out.printf("Data kelas S1: \n");
-        System.out.printf("%s % s % s % s % d % d\n",
+        PrintStream printf = System.out.printf("%s %s %s %s %d %d \n",
                 getNPM(),
                 getNama(),
                 getAlamat(),
                 getTelepon(),
-                getTahunlahir(), Sertifikat);
+                getTahunlahir(), 
+                Sertifikat);
     }
+
 }

@@ -18,12 +18,16 @@ public class Mahasiswa {
     public String Telepon;
     public int tahunlahir;
     private static int jml = 0;
+    
 
     
     public static int hitungUmur(int thn) {
         return (2016 - thn);
     }
 
+  
+
+    
     // Blank Constuctor
     public Mahasiswa() {
         this.NPM = "0";
@@ -97,6 +101,10 @@ public class Mahasiswa {
 
     public void setTahunlahir(int tahunlahir) {
         this.tahunlahir = tahunlahir;
+    }
+
+    public static void setJml(int jml) {
+        Mahasiswa.jml = jml;
     }
 
     public void tampilkan() {
